@@ -11,7 +11,7 @@ app.use(
   })
 );
 
-app.use('/auth', AuthRouter);
+app.use('/api/auth', AuthRouter);
 
 /* Error handler middleware */
 app.use((err, req, res, next) => {
